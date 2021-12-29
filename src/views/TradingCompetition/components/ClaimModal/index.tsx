@@ -8,7 +8,7 @@ import {
   Heading,
   Text,
   Image,
-  AcewnIcon,
+  CrownIcon,
   TrophyGoldIcon,
   TeamPlayerIcon,
 } from '@acentswap/ace-uikit'
@@ -64,7 +64,7 @@ const ClaimModal: React.FC<CompetitionProps> = ({ onDismiss, onClaimSuccess, use
         <Flex mt="16px" alignItems="center">
           {/* achievements */}
           <TrophyGoldIcon mr={[0, '4px']} />
-          {champion && <AcewnIcon mr={[0, '4px']} />}
+          {champion && <CrownIcon mr={[0, '4px']} />}
           {teamPlayer && <TeamPlayerIcon mr={[0, '4px']} />}
           <Text ml={['4px', '8px']}>
             +{userPointReward} {t('Points')}

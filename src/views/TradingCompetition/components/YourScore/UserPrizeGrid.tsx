@@ -4,7 +4,7 @@ import {
   BlockIcon,
   CheckmarkCircleIcon,
   Flex,
-  AcewnIcon,
+  CrownIcon,
   Text,
   TeamPlayerIcon,
   TrophyGoldIcon,
@@ -52,7 +52,7 @@ const UserPrizeGrid: React.FC<{ userTradingInformation?: UserTradingInformationP
           </BoldTd>
           <Td>
             <Flex alignItems="center" flexWrap="wrap" justifyContent="center" width="100%">
-              {champion && <AcewnIcon mr={[0, '4px']} />}
+              {champion && <CrownIcon mr={[0, '4px']} />}
               {teamPlayer && <TeamPlayerIcon mr={[0, '4px']} />}
               <TrophyGoldIcon mr={[0, '4px']} />
               <Text fontSize="12px" color="textSubtle" textTransform="lowercase">

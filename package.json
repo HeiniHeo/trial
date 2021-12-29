@@ -2,7 +2,7 @@
   "name": "vvs-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://heiniheo.github.io/aceswap-front-heini",
+  "homepage": "http://acedefi.github.io/aceswap-front-heini",
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
@@ -14,7 +14,8 @@
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
     "format:check": "prettier --check '**/*.{js,jsx,ts,tsx}'",
     "format:write": "prettier --write '**/*.{js,jsx,ts,tsx}'",
-    "updateLPsAPR": "NODE_PATH=./src ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/updateLPsAPR.ts"
+    "updateLPsAPR": "NODE_PATH=./src ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/updateLPsAPR.ts",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
